@@ -1,0 +1,31 @@
+{
+  "name": "hh-backend-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run serve",
+    "build": "tsc",
+    "serve": "node dist/server.js",
+    "dev": "nodemon --ext ts --exec 'ts-node' server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AskhatB/hh-backend-typescript.git"
+  },
+  "author": "Askhat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AskhatB/hh-backend-typescript/issues"
+  },
+  "homepage": "https://github.com/AskhatB/hh-backend-typescript#readme",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.0",
+    "express": "^4.17.1",
+    "ts-node": "^8.3.0"
+  }
+}
